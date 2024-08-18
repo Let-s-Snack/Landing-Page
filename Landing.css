@@ -1,0 +1,71 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    margin-left: 32px;
+    margin-right: 32px;
+    font-family: 'Poppins_regular';
+}
+@font-face {
+    font-family: 'Poppins_medium' ;
+    src: url(Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'Poppins_regular';
+    src: url(Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins_light';
+    src: url(Poppins/Poppins-Light.ttf);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    margin-left: -32px;
+    height: 89px;
+    display: inline-flex;
+    width: 100%;
+    position: fixed;
+    background-color: #F17022;
+    font-size: 22px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 12.4px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+}
+.logoApp{
+    width: 63.9px;
+    height: 65.24;
+}
+.name{
+    font-size: 40px;
+    margin-right: 790px;
+    margin-left: 8px;
+}
+.browse a{
+    margin-right: 50px;
+    font-size: 24px;
+    font-family: 'Poppins_light';
+}
+.text{
+    position: static;
+    z-index: 9999;
+    color: white;
+    display: inline-flex;
+    margin-left: 50%;
+    font-size: 60px;
+    margin-top: 260px;
+    margin-right: 70px;
+    line-height: 50px;
+}
+.back{
+    width: 1559.71px; 
+    height: 1083.3px;
+    border-radius: 90px; 
+    background-color: #ff6000;
+    
+}
