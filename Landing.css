@@ -117,3 +117,23 @@ a{
     z-index: 1;
     right: 100px;
 }
+.history{
+    margin-top: 382px;
+    font-size: 56px;
+    margin-left:395px ;
+}.groupPhoto{
+    margin-top: 60px;
+    width: 623px;
+    height: 436px;
+    border: 5px solid #F17022;
+    float: left;
+    margin-right: 32px;
+
+}
+.aboutUs{
+    margin-top: 98px;
+    font-size: 27px;
+    display: block;
+    width: 1418px;
+    height: 350px;
+}
