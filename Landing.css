@@ -3,7 +3,7 @@
     margin: 0%;
 }
 body{
-    width: 100%;
+    width: 100vw;
     margin-left: 32px;
     margin-right: 32px;
     font-family: 'Poppins_regular';
@@ -78,14 +78,11 @@ a{
 }
 .back{
     position: absolute;
-    margin-top: -560px;
     left: -60px; 
     top: -26.53px;
-    width: 1559.71px; 
-    height: 893.3px;
     transform: rotate(-22.91deg); 
     border-radius: 70px; 
-    width: 1559.71px; 
+    width: 100%; 
     height: 1083.3px;
     border-radius: 90px; 
     background-color: #ff6000;
