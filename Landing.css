@@ -138,7 +138,7 @@
 
   }
   .history {
-    margin-top: 382px;
+    margin-top: 182px;
     font-size: 56px;
     margin-left: 395px;
   }
@@ -176,4 +176,26 @@
     font-size: 56px;
     color: white;
     margin-bottom: 400px;
+  }
+  .page4{
+    margin-left: 32px;
+  }
+  .page4 p{
+    font-size: 24px;
+    width: 856px;
+    display: block;
+    float: left;
+
+  }
+  .page4 h2{
+    margin-top: 117px;
+    font-size: 56px;
+  }
+  .phonePhoto{
+    bottom: 130px;
+    position: relative;
+    float: right;
+    height: 507px;
+    width: 467;
+    right: 32px;
   }
