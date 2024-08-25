@@ -199,3 +199,61 @@
     width: 467;
     right: 32px;
   }
+
+  .page5 {
+    margin-top: 507px;
+    max-width: 1442px;
+
+  }
+.page5 h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #333;
+    font-family: 'Poppins_medium';
+    margin-bottom: 40px;
+}
+
+.row {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.founders-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.founders {
+    display: flex;
+    justify-content: flex-end;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+.row img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    margin-right: 32px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+    font-family: 'Poppins_medium';
+}
+.founders-row h2{
+    font-size: 64px;
+    font-family: 'Poppins_medium';
+    position: relative;
+    right: 200px;
+    bottom: 100px;
+}
