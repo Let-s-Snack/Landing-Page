@@ -31,7 +31,7 @@
     color: white;
   }
    
-  navbar {
+  header {
     height: 80px;
     display: flex;
     width: 100%;
@@ -210,29 +210,21 @@
     text-align: center;
     color: #333;
     font-family: 'Poppins_medium';
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .row {
-    position: relative;
     display: flex;
     justify-content: flex-end;
+    gap: 32px;
 }
-
-.founders-row {
+.figure {
+    width: fit-content;
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-}
-
-.founders {
-    display: flex;
-    justify-content: flex-end;
-}
-
-figure {
-    margin: 0;
-    text-align: center;
+    gap: 10px;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .row img {
@@ -241,19 +233,19 @@ figure {
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid #ccc;
-    margin-right: 32px;
 }
 
-figcaption {
-    margin-top: 10px;
+.figure p {
+    text-align: center;
+    width: 100%;
     font-size: 24px;
     color: #333;
     font-family: 'Poppins_medium';
 }
-.founders-row h2{
+.page5 h2{
     font-size: 64px;
     font-family: 'Poppins_medium';
     position: relative;
-    right: 200px;
-    bottom: 100px;
+    top: 140px;
+    left: 50px;
 }
