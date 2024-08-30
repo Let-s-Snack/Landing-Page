@@ -3,7 +3,6 @@
       margin: 0;
       box-sizing: border-box;
     }
-    
     @font-face {
       font-family: "Poppins_regular";
       src: url(Poppins/Poppins-Regular.ttf);
@@ -273,4 +272,73 @@
     width: 1200px;
     height: 2px;
     background-color: grey;
+  }
+  .background{
+    z-index: -1;
+    display: flex;
+    width: 1482px;
+    height: 576px;
+    background-color: #f17022;
+    color: white;
+
+  }
+  .background h2{
+    font-size: 64px;
+    padding: 80px;
+  }
+  .background .logo{
+    width: 280px;
+    height: 280px;
+    margin-left: 570px;
+    margin-top: 50px;
+  }
+  .icons{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+    width: 82px;
+    height: 62px;
+    right: 1270px;
+    top: 200px;
+  }
+  .contact{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 40px;
+    font-size: 24px;
+    margin-left:180px;
+    margin-top: 222px;
+  }
+  .point{
+    font-size: 24px;
+    display: flex;
+    position: absolute;
+    color: white;
+    margin-top: 440px;
+    margin-left: 240px;
+  }
+  .mark{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 510px;
+    margin-left: 680px;
+
+  }
+  .mark img{
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+  }
+  .googleplay{
+    display: flex;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 980px;
+  }
+  .googleplay img{
+    width: 476px;
+    height: 102px;
   }
