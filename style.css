@@ -22,7 +22,6 @@
       width: 100%;
       font-family: "Poppins_regular";
       background-color: #f8f8f8;
-      overflow-x: hidden;
     }
     
     a {
@@ -45,14 +44,15 @@
     }
       
     header a:hover {
-      text-shadow: 0px 0px 12.4px rgba(0, 0, 0, 0.45);
+      text-shadow: 0px 0px 12.4px rgba(0, 0, 0, 0.35);
+      text-decoration: underline;
     }
     
     .box_logo {
       display: flex;
       gap: 2rem;
       align-items: center;
-      font-size: 40px;
+      font-size: 2.5rem;
     }
     
     .logoApp {
@@ -63,7 +63,7 @@
     .browse {
       display: flex;
       gap: 3rem;
-      font-size: 24px;
+      font-size: 1.5rem;
       font-family: "Poppins_light";
       align-items: center;
     }
@@ -86,8 +86,8 @@
     .slogan {
       color: white;
       display: flex;
-      line-height: 50px;
-      font-size: 48px;
+      line-height: 3.125rem;
+      font-size: 3rem;
       font-family: "Poppins_medium";
 
     }
@@ -95,8 +95,8 @@
     .description {
       display: inline-flex;
       color: white;
-      font-size: 24px;
-      line-height: 36px;
+      font-size: 1.5rem;
+      line-height: 2.25rem;
       font-family: "Poppins_regular";
       margin-bottom: 40px;
 
@@ -106,8 +106,7 @@
       top: -520px;
       transform: rotate(-32deg);
       right: 100px;
-      border-radius: 70px;
-      width: 105%;
+      width: 100%;
       height: 1000px;
       border-radius: 90px;
       background-color: #ff6000;
@@ -138,21 +137,20 @@
     }
     .history {
       margin-top: 182px;
-      font-size: 56px;
-      margin-left: 395px;
+      font-size: 3rem;
+      text-align: center;
     }
     .groupPhoto {
-      margin-left: 32px;
+      margin: 32px 32px;
       margin-top: 60px;
       width: 623px;
       height: 436px;
       border: 5px solid #f17022;
       float: left;
-      margin-right: 32px;
     }
     .aboutUs {
       margin-top: 98px;
-      font-size: 27px;
+      font-size: 1.75rem;
       display: block;
       width: 1418px;
       height: 350px;
@@ -172,7 +170,7 @@
     }
     .videoTittle {
       position: absolute;
-      font-size: 56px;
+      font-size: 3.5rem;
       color: white;
       margin-bottom: 400px;
     }
@@ -183,11 +181,11 @@
       right: 1000px;
     }
     .page4{
-      margin-top: 150px;
+      margin-top: 190px;
       margin-left: 32px;
     }
     .page4 p{
-      font-size: 24px;
+      font-size: 1.5rem;
       width: 856px;
       display: block;
       float: left;
@@ -195,31 +193,31 @@
     }
     .page4 h2{
       margin-top: 117px;
-      font-size: 56px;
+      font-size: 3.5rem;
     }
     .phonePhoto{
       bottom: 130px;
       position: relative;
       float: right;
       height: 507px;
-      width: 467;
+      width: 467px;
       right: 32px;
     }
 
     .page5 {
       margin-top: 507px;
-      max-width: 1442px;
+      max-width: 1482px;
     }
 
   .page5 h1 {
-      font-size: 60px;
+      font-size: 3.75rem;
       text-align: center;
       color: #333;
       font-family: 'Poppins_medium';
       margin-bottom: 80px;
   }
   .page6 h2{
-    font-size: 56px;
+    font-size: 3.5rem;
     font-family: 'Poppins_medium';
     position: absolute;
     left: 50px;
@@ -235,32 +233,30 @@
   .page6 .row {
     margin-bottom: 90px;
   }
-
-
   .figure {
-      display: flex;
-      gap: 10px;
-      align-content: center;
-      flex-direction: column;
-      justify-content: center;
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .row img {
-      width: 220px;
-      height: 220px;
-      border-radius: 50%;
-      border: 2px solid #ccc;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
   }
 
   .figure p {
-      text-align: center;
-      width: 100%;
-      font-size: 24px;
-      color: #333;
-      font-family: 'Poppins_medium';
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    color: #333;
+    font-family: 'Poppins_medium';
   }
   .page5 h2{
-      font-size: 64px;
+      font-size: 4rem;
       font-family: 'Poppins_medium';
       position: relative;
       top: 140px;
@@ -276,14 +272,14 @@
   .background{
     z-index: -1;
     display: flex;
-    width: 1482px;
+    width: 100%;
     height: 576px;
     background-color: #f17022;
     color: white;
-
+    position: absolute;
   }
   .background h2{
-    font-size: 64px;
+    font-size: 4rem;
     padding: 80px;
   }
   .background .logo{
@@ -307,12 +303,12 @@
     flex-direction: column;
     position: absolute;
     gap: 40px;
-    font-size: 24px;
+    font-size: 1.5rem;
     margin-left:180px;
     margin-top: 222px;
   }
   .point{
-    font-size: 24px;
+    font-size: 1.5rem;
     display: flex;
     position: absolute;
     color: white;
@@ -342,3 +338,19 @@
     width: 476px;
     height: 102px;
   }
+  .page7 .link{
+    margin-top: 500px;
+  }
+  .link .word1{
+    position: relative;
+    right: 940px;
+    top: 10px;
+  }
+  .link .word2{
+    position: relative;
+    display: inline-block;
+    right: 590px;
+    bottom: 15px;
+  }
+
+  
