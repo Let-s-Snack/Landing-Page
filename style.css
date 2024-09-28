@@ -344,115 +344,36 @@ header a:hover {
 }
 .link .word2{
   position: relative;
-  display: inline-block;
   right: 590px;
   bottom: 15px;
 }
-@media(max-width:1024px){
-  body{
-    width: 1024px;
+@media(min-width:1600px){
+  iframe{
+    width: 550px;
+    height: 300px;
   }
-  .InitialImage {
-    position: relative;
-    width: 300px;
-    height: 400px;
-    right: 50px;
-  }
-  .contorn {
-    width: 300px;
-    height: 400px;
-    right: 50px;
-  }
-  .slogan{
-    font-size: 2.5rem;
-    margin-left: 40px;
-  }
-  .description{
-    font-size: 1.3rem;
-    margin-bottom: 60px;
-    margin-left: 40px;
-  }
-  .history {
-    font-size: 2.2rem;
-  }
-  .groupPhoto {
-    width: 453px;
-    height: 326px;
-  }
-  .aboutUs {
-    margin-top: 50px;
-    font-size: 1.3rem;
-    width: 1000px;
-  }
-  .videoTittle {
-    font-size: 2.4rem;
-  }
-  .character{
-    width: 300px;
-    top: 1730px;
-    right: 740px;
-  }
-  .page4 p{
-    font-size: 1.3rem;
-    width: 556px;
-  }
-  .page4 h2{
-    font-size: 3.1rem;
-  }
-  .phonePhoto{
-    bottom: 30px;
-    height: 417px;
-    width: 377px;
-  }
-  .row {
-    gap: 12px;
-  }
-  .row img {
-    width: 190px;
-    height: 190px;
-  }
-  .page5 h2{
-    font-size: 3rem;
-  }
-  .line{
-    margin:65px;
-    width: 880px;
-  }
-  .page6 h2{
-    font-size: 3rem;
-  }
-  .background h2{
-    font-size: 3rem;
+  header{
+    position: fixed;
   }
   .background .logo{
-    width: 260px;
-    height: 260px;
-    margin-left: 230px;
+    margin-left: 700px;
   }
   .icons{
-    right: 870px;
-  }
-  .contact{
-    margin-left:150px;
+    right: 1450px;
   }
   .point{
-    font-size: 1rem;
-    margin-left: 190px;
+    display: none;
   }
   .mark{
-    margin-left: 480px;
+    text-align: center;
+    left: 100px;
   }
   .googleplay{
-    margin-left: 550px;
+    margin-left: 1090px;
   }
-  .googleplay img{
-    width: 476px;
-    height: 102px;
-  }
-  .link .word1{
-    position: relative;
-  }
-  .link .word2{
-    right: 200px;
+
+  .link{
+    display: none;
   }
 }
+
